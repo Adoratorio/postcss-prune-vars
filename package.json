@@ -1,0 +1,44 @@
+{
+  "name": "@adoratorio/postcss-prune-vars",
+  "version": "0.1.0",
+  "description": "PostCSS plugin to remove unused CSS custom properties, with content file scanning support",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adoratorio/postcss-prune-vars"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "peerDependencies": {
+    "postcss": ">=8.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "postcss": "^8.5.8",
+    "typescript": "^6.0.2"
+  },
+  "keywords": [
+    "css",
+    "postcss",
+    "postcss-plugin",
+    "css-custom-properties",
+    "css-variables",
+    "prune",
+    "unused",
+    "vars"
+  ],
+  "license": "MIT"
+}
